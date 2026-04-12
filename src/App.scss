@@ -1,0 +1,33 @@
+:root {
+    --grey: #eee;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.justifyCenter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.justifyLeft {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.justifyRight {
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
